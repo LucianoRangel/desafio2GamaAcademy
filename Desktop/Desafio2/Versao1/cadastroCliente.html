@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desafio 2 - Gama Academy</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Cadastro de Cliente</h1>
+    </header>
+    <main class="container-cadastro">
+        <form action="#" method="post" id="formularioCadastroCliente">
+            <div class="form-campos">
+                <div class="label-input">
+                    <label for="nomeCliente">Nome</label>
+                    <br>
+                    <input type="text" name="nomeCliente" id="nomeCliente" placeholder="Nome do Cliente" class="input" required/>
+                </div>
+                <br>
+                <div class="label-input">
+                    <label for="enderecoCliente">Endereço</label>
+                    <br>
+                    <input type="text" name="enderecoCliente" id="enderecoCliente" placeholder="Endereço do Cliente" class="input" required/>
+                </div>
+            </div>
+            <br>
+            <input type="submit" class="botao" value="Cadastrar Cliente"/>
+        </form>
+        <br>
+        <a href="index.html">
+            <button class="botao">Página Inicial</button>
+        </a>
+        <h1 style="text-align: center;">Clientes Cadastrados</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Endereço</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaClienteCadastrado">
+
+            </tbody>
+        </table>
+    </main>
+    <script src="cadastroCliente.js"></script>
+    <footer class="rodape">
+        <p>Copyright © 2021 | Luciano dos Santos Rangel - Desafio 2 - Gama Academy</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+html, body{
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cabecalho h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.conteudo{
+    flex: 1 0 auto;
+    background-color:#363636;
+    color: white;
+    text-align: justify;
+}
+
+.conteudo div{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 19vh;
+}
+
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-cadastro table {
+    color: #fff;
+}
+
+.container-cadastro table td, th {
+    width: 25%;
+}
+
+.container-cadastro table thead {
+    background-color: #2e5266;
+}
+
+.container-cadastro table thead tr th {
+    font-weight: 500;
+}
+
+.container-cadastro table tbody {
+    text-align: center;
+    font-weight: 300;
+    background-color: #6e8898;
+}
+
+.botao {
+    margin: 0 20px;
+    padding: 12px 20px;
+    max-width: 200px;
+    background-color: #b8aef3;
+    color: #2e5266;
+    border-radius: 6px;
+    border: 0;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    font-weight: 600;
+    height: fit-content;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.form-campos {
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.label-input {
+    display: grid;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.rodape{
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

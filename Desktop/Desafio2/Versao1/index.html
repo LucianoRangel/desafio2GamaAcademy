@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desafio 2 - Gama Academy</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Desafio 2 - Gama Academy - Cadastros</h1>
+    </header>
+    <main class="conteudo">
+        <div>
+            <a href="cadastroCategoria.html">
+                <button class="botao">Cadastrar Categoria de Produto</button>
+            </a>
+        </div>
+        <div>
+            <a href="cadastroProduto.html">
+                <button class="botao">Cadastrar Produto</button>
+            </a>
+        </div>
+        <div>
+            <a href="cadastroCliente.html">
+                <button class="botao">Cadastrar Cliente</button>
+            </a>
+        </div>
+        <div>
+            <a>
+                <button class="botao" onclick="limparStorage()">Limpar Storage</button>
+            </a>
+        </div>
+        <script>
+            function limparStorage() {
+                localStorage.removeItem('categoriaProduto');
+                localStorage.removeItem('produto');
+                localStorage.removeItem('cliente');
+                alert("Storage resetado!");
+            }
+        </script>
+    </main>
+    <footer class="rodape">
+        <p>Copyright © 2021 | Luciano dos Santos Rangel - Desafio 2 - Gama Academy</p>
+    </footer>
+</body>
+
+</html>

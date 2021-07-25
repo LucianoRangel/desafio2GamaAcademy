@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desafio 2 - Gama Academy</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Cadastro de Categoria de Produto</h1>
+    </header>
+    <main class="container-cadastro">
+        <form action="#" method="post" id="formularioCadastroCategoriaProduto">
+            <div class="form-campos">
+                <div class="label-input">
+                    <label for="nomeCategoria">Nome da Categoria</label>
+                    <br>
+                    <input type="text" name="nomeCategoria" id="nomeCategoria" placeholder="Nome da Categoria" class="input" required/>
+                </div>
+            </div>
+            <br>
+            <input type="submit" class="botao" value="Cadastrar Categoria" />
+        </form>
+        <br>
+        <a href="index.html">
+            <button class="botao">Página Inicial</button>
+        </a>
+        <h1 style="text-align: center;">Categorias Cadastradas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaCategoriaCadastrada">
+
+            </tbody>
+        </table>
+    </main>
+    <script src="cadastroCategoria.js"></script>
+    <footer class="rodape">
+        <p>Copyright © 2021 | Luciano dos Santos Rangel - Desafio 2 - Gama Academy</p>
+    </footer>
+</body>
+
+</html>
